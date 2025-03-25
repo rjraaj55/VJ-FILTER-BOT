@@ -25,7 +25,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{me.username}?startgroup=true')
         ]]
-        if cd["update_channel_link"] != None:
+        if cd["update_channel_link"] != @rajmoviesword:
             up = cd["update_channel_link"]
             buttons.append([InlineKeyboardButton('🍿 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🍿', url=up)])
         reply_markup = InlineKeyboardMarkup(buttons)
